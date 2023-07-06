@@ -1,0 +1,50 @@
+.contactItem {
+  display: grid;
+  grid-template-columns: 35px 1fr 1fr 30px;
+  /* grid-template-columns: 1fr 1fr; */
+  outline:1px  solid #2196F3;
+  padding: 15px 8px;
+  margin-bottom: 8px;
+  border-radius: 2px;
+}
+
+.contactItem:last-child {
+  margin-bottom: 0;
+}
+
+.delIcon {
+  fill: #2196F3;
+  width: 20px;
+  height: 20px;
+  margin: auto;
+  transition: all 300ms ease-in-out;
+}
+
+.delIcon:hover,
+.delIcon:focus {
+  fill: #562ee9;
+}
+
+.delIcon:disabled {
+  fill: #ccc;
+}
+
+.contactLogo {
+  fill: #2196F3;
+  width: 20px;
+  height: 20px;
+  margin: auto;
+}
+
+.contactName {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  color: rgb(26 25 25 / 96%);
+}
+.contactPhone {
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  color: rgb(26 25 25 / 96%);
+}

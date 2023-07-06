@@ -1,0 +1,27 @@
+.header {
+  margin-top: 25px;
+  margin-bottom: 10px;
+  color: rgb(125, 125, 125);
+  font-size: 42px;
+  font-weight: 900;
+  text-shadow: 2px 2px 2px rgb(200, 101, 247, 0.317);
+  text-transform: uppercase;
+
+ 
+}
+
+.headerSpan {
+  color: #c865f7;
+  text-shadow: 2px 2px 2px rgb(33, 33, 34, 0.317);
+}
+
+.wellcome {
+  font-size: 18px;
+}
+
+.about {
+  margin-top: 50px;
+  font-size: 16px;
+  text-transform: none;
+  font-weight: 400;
+}

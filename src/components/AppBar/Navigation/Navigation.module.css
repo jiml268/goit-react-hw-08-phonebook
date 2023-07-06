@@ -1,0 +1,23 @@
+.link {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #296785;
+  padding: 8px;
+  transition: 300ms all ease-in-out;
+}
+
+.link:last-child {
+  margin-right: 0;
+}
+
+.activeLink {
+  background-color: rgba(201, 27, 27, 0.086);
+  color: #011925;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+.link:hover {
+  color: white;
+  background-color: #296785;
+}

@@ -1,0 +1,23 @@
+.headerBtn {
+  width: 270px;
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+border: 1px solid #1689b7;
+  color: #656ff7;
+  transition: all 300ms ease-in-out;
+  background-color: transparent;
+}
+
+.headerBtn:hover,
+.headerBtn:focus,
+.headerBtn:active {
+background-color: #1d2d69;
+  color: #fff;
+}
+
+.headerBtn p {
+  margin-right: 8px;
+}
